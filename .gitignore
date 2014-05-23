@@ -1,0 +1,11 @@
+*.DS_Store
+*.pyc
+*.gz
+*.html
+*.pdf
+descriptive.py
+first.py
+myplot.py
+Pmf.py
+survey.py
+thinkstats.py
