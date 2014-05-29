@@ -3,6 +3,7 @@
 *.gz
 *.html
 *.pdf
+Cdf.py
 descriptive.py
 first.py
 myplot.py

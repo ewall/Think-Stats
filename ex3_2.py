@@ -1,6 +1,6 @@
 # Example 3-2
 
-import relay, Pmf, myplot
+import relay, Pmf, myplot, Cdf
 
 def BiasPmf(pmf, v, name=None):
     biased_pmf = pmf.Copy()
@@ -20,6 +20,13 @@ def main():
     myplot.Show(title='observed speeds',
                 xlabel='speed (mph)',
                 ylabel='probability')
+
+    #cdf = Cdf.MakeCdfFromPmf(observed)
+    #myplot.Clf()
+    #myplot.Cdf(cdf)
+    #myplot.Show(title='CDF of observed running speed',
+    #            xlabel='speed (mph)',
+    #            ylabel='cumulative probability')
 
 if __name__ == '__main__':
     main()
